@@ -162,11 +162,11 @@ def automatic_movement():
             motor_stop()
         else:
             gripper_close()
-            time.sleep(1)
+            time.sleep(3)
             gripper_stop()
             rotater_backward()
             gripper_open()
-            time.sleep(1)
+            time.sleep(3)
             gripper_stop()
             rotater_forward()
             break
